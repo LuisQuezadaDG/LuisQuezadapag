@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+#titulo {
+
+	}
+	
+#ildig {
+	padding-left: 4%;
+ background-color: #fff;
+ position: relative;
+}
+
+
+.logo1 {
+width: 45%;
+margin-left: 425px;
+
+}
+
+#ellogo {
+	background-color: #000000;
+}
+
+
+#inventos {
+ padding: 50px;
+ text-align: center;
+	background-color:#dddddd; 
+	align-items: center;
+}
+
+h1 {
+	font-family: 'IBM Plex Sans', sans-serif;
+	 font-weight: 700;
+	 font-size: 6rem;
+	 line-height: 1.5;
+	 margin-left: 5%;
+	 margin-right: 5%;
+}
+
+h2 {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	 font-size: 4rem;
+	 line-height: 1.5;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Crimson Text', serif;
+	 font-weight: 500;
+	 font-size: 1.7rem;
+	 line-height: 1.5;
+	 margin-left: 5%;
+	 margin-right: 5%;
+}
+
+h4 {
+	text-align: center;
+	font-family: 'IBM Plex Sans', sans-serif;
+	 font-weight: 500;
+	 font-size: 4rem;
+	 line-height: 0.9;
+}
+
+h5 {
+	text-align: center;
+	font-family: 'Crimson Text', serif;
+	 font-weight:50;
+	 font-size: 3.5rem;
+	 line-height: 0.9;
+	 padding-top: 3.5%;
+}
+
+h6 {
+	font-family: 'IBM Plex Sans', sans-serif;
+	font-weight: 500;
+	 font-size: 4rem;
+	 line-height: 1.5;
+	text-align: center;
+	color: rgb(25, 213, 226);
+}
+
+.title-image{
+ width: 100%;
+
+}
+
+
+
+
+p{
+	font-family: 'Crimson Text', serif;
+	color: #ecebeb;
+ 	text-align: center;
+}
+
+#edit{
+	padding-left: 10%;
+ background-color: rgb(165, 165, 165);
+ 
+}
+
+.carousel-item{
+ padding: 2% 20%;
+background-color: #383838	
+}
+
+#iltra{
+	background-color: #000000
+}
+
+.container-fluid{
+ padding: 3% 15% 7%;
+}
+
+@media (max-width: 1028px) {
+ #titulo{
+ text-align: center;
+ }
+ 
+ .img-manos{
+	 padding-left: 100px;
+ }
+
+
+}
+#cta{
+ background-color: #ffffff;
+ color: rgb(22, 22, 22);
+ padding: 7% 15%;
+ text-align: center;
+}
+
+
+
+
+#footer {
+ background-color:rgb(165, 165, 165); ;
+	text-align: center;
+}
+.social-icon{
+	margin: 20px 10px;
+}
+
+.video-container{
+	position: absolute;
+	z-index: -100;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.video-container video{
+	position: absolute;
+	z-index: -100;
+	top: 0;
+	left: 0;
+	width: 100vw; 
+}
+.card-columns {
+	@include media-breakpoint-only(lg) {
+	  column-count: 4;
+	}
+	@include media-breakpoint-only(xl) {
+	  column-count: 5;
+	}
+  }
